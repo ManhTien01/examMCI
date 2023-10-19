@@ -609,4 +609,9 @@
     padding-top: 100%;
  }
 
+ .blog__img, .related-posts__img {
+    padding-top: 50%;
+    height: 0;
+ }
+
 }
