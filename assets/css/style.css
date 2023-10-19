@@ -604,4 +604,9 @@
     width: 140px;
  }
 
+ .event-header__content-item {
+    height: 0px;
+    padding-top: 100%;
+ }
+
 }
