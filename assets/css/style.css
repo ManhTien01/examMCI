@@ -609,9 +609,17 @@
     padding-top: 100%;
  }
 
- .blog__img, .related-posts__img {
+ .blog__img, .related-posts__img,.article__image, .event-header__content-item {
     padding-top: 50%;
     height: 0;
+ }
+
+ .article__image__icon--right {
+    top: 74px;
+ }
+
+ .article__image__icon--left {
+    top: 74px;
  }
 
 }
