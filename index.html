@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.2/css/all.min.css">
+
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <div class="header">
+      <nav class="navbar navbar-expand-xl">
+        <div class="container-fluid">
+          <div class="">
+            <img src="assets/images/Logo2-03.png" alt="" class="header-image">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon__menu"><i class="fa-solid fa-bars"></i></span>
+            </button>
+          </div>
+          <div class="">
+            <button class="navbar-toggler" type="button">
+              <span class="navbar-toggler-icon__search"><i class="fa-solid fa-magnifying-glass"></i></span>
+            </button>
+            <button class="navbar-toggler" type="button">
+              <a href="/" class="navbar-toggler-icon__exist"><i class="fa-solid fa-right-from-bracket"></i></a>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Khóa học
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <ul class="fresh-ul">Phân tích dữ liệu
+                    <li><a class="fresh-ul__item" href="#">Python Foundation in Data Analytics</a></li>
+                    <li><a class="fresh-ul__item" href="#">SQL for Newbies: Data Analysis for Beginners</a></li>
+                    <li><a class="fresh-ul__item" href="#">Database and SQL for Data Science</a></li>
+                    <li><a class="fresh-ul__item" href="#">Analyzing and Visualizing Data on Power BI</a></li>
+                    <li><a class="fresh-ul__item" href="#">VBA Basic To Advanced</a></li>
+                  </ul>
+  
+                  <ul class="fresh-ul">Phân tích dữ liệu
+                    <li><a class="fresh-ul__item" href="#">Python Foundation in Data Analytics</a></li>
+                    <li><a class="fresh-ul__item" href="#">SQL for Newbies: Data Analysis for Beginners</a></li>
+                    <li><a class="fresh-ul__item" href="#">Database and SQL for Data Science</a></li>
+                    <li><a class="fresh-ul__item" href="#">Analyzing and Visualizing Data on Power BI</a></li>
+                    <li><a class="fresh-ul__item" href="#">VBA Basic To Advanced</a></li>
+                  </ul>
+
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Lịch đào tạo
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Doanh nghiệp
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Blog</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Về chúng tôi
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="col-0 d-flex menu-search">
+              <div class="me-4 fs-3">
+                <i class="fa-solid fa-magnifying-glass" style="color: #bdbdbd;"></i>
+              </div>
+            </form>
+            <button class="col-0 btn btn-login">Đăng nhập</button>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="content">
+      <img src="assets/images/Banner.png" class="banner banner--rectangle">
+      <img src="assets/images/Banner Chính Vuông.png" class="banner banner--square">
+      <div class="event">
+        <div class="container mt-4 pt-5">
+          <div class="row gx-5">
+            <div class="col-12 col-xl-5 col-order-2 event__wrapper">
+              <div class="title event-header">Sự kiện của MCI
+                <div class="line"></div>
+              </div>
+              <ul class="row gy-5 event-header__content">
+                <li class="col-12 event-header__content-item"></li>
+                <li class="col-12 event-header__content-item"></li>
+                <li class="col-12 event-header__content-item"></li>
+              </ul>
+
+              <ul class="event-pagination">
+                <li class="event-pagination__icon"><i class="fa-solid fa-angle-left"></i></li>
+                <li class="event-pagination__item"></li>
+                <li class="event-pagination__item"></li>
+                <li class="event-pagination__item"></li>
+                <li class="event-pagination__item active"></li>
+                <li class="event-pagination__item"></li>
+                <li class="event-pagination__item"></li>
+                <li class="event-pagination__icon"><i class="fa-solid fa-angle-right"></i></li>
+              </ul>
+            </div>
+            <div class="col-12 col-xl-7 col-order-1 article">
+              <div class="article__search-wrap">
+                <input class="article__search-input" type="text" placeholder="Tìm kiếm bài viết">
+                <button type="submit"><img src="assets/images/icon _search.png" alt=""></button>
+              </div>
+              <ul class="mt-4 tap ">
+                <li class="tap-title">Chia sẻ kinh nghiệm</li>
+                <li class="tap-title">Kiến thức chuyên môn</li>
+                <li class="tap-title">MCI Careers</li>
+                <li class="tap-title">Kinh nghiệm thực chiến</li>
+                <li class="tap-title">Lịch khai giảng</li>
+              </ul>
+
+              <div class="mt-5 row position-relative article__item">
+                <div class="col-12 col-xl-5">
+                  <div class="article__image">
+                    <div class="article__image__icon--left"><i class="fa-solid fa-chevron-left"></i></div>
+                    <div class="article__image__icon--right"><i class="fa-solid fa-chevron-right"></i></div>
+                  </div>
+                </div>
+                <div class="col-12 col-xl-7">
+                  <div class="title--small">Bạn Nguyễn Quang Hưng - Học DATA là một quá trình và mình vượt qua nó như
+                    thế
+                    nào</div>
+                  <div class="description">Với sự tìm hiểu từ cấp 3, em thấy ngành công nghệ về phần mềm rất thú vị về
+                    những
+                    logic Toán học và các ngôn ngữ lập trình. Sau đó, em có đăng ký nguyện vọng thi đại học vào các
+                    ngành
+                    công nghệ thông tin trong các trường trên Hà Nội, tuy nhiên em lại không đủ điểm tiêu chí để được
+                    vào
+                    ngành công nghệ thông tin...
+                  </div>
+                </div>
+
+                <div class="see-more see-more--up">Xem thêm</div>
+              </div>
+
+              <div class="col-0 mt-4 row position-relative">
+                <div class="col-5">
+                  <div class="article__image"></div>
+                </div>
+                <div class="col-7">
+                  <div class="title--small">Bạn Nguyễn Quang Hưng - Học DATA là một quá trình và mình vượt qua nó như
+                    thế
+                    nào</div>
+                  <div class="description">Với sự tìm hiểu từ cấp 3, em cảm thấy ngành phần mềm về công nghệ rất thú vị
+                    về
+                    những logic Toán học và các ngôn ngữ lập trình
+                    . Sau đó em có đăng kí thi đại học vào cách ngành công nghệ thông tin trong các trường đại học trên
+                    Hà
+                    Nội, tuy nhiên em lại không
+                    đủ điểm tiêu chí để được vào ngành công nghệ thông tin...
+                  </div>
+                </div>
+
+                <div class="see-more see-more--up">Xem thêm</div>
+
+              </div>
+
+              <div class="col-0 mt-4 row position-relative">
+                <div class="col-5">
+                  <div class="article__image"></div>
+                </div>
+                <div class="col-7">
+                  <div class="title--small">Bạn Nguyễn Quang Hưng - Học DATA là một quá trình và mình vượt qua nó như
+                    thế
+                    nào</div>
+                  <div class="description">Với sự tìm hiểu từ cấp 3, em cảm thấy ngành phần mềm về công nghệ rất thú vị
+                    về
+                    những logic Toán học và các ngôn ngữ lập trình
+                    . Sau đó em có đăng kí thi đại học vào cách ngành công nghệ thông tin trong các trường đại học trên
+                    Hà
+                    Nội, tuy nhiên em lại không
+                    đủ điểm tiêu chí để được vào ngành công nghệ thông tin...
+                  </div>
+                </div>
+                <div class="see-more see-more--up">Xem thêm</div>
+
+              </div>
+
+              <div class="col-0 mt-4 row position-relative">
+                <div class="col-5">
+                  <div class="article__image"></div>
+                </div>
+                <div class="col-7">
+                  <div class="title--small">Bạn Nguyễn Quang Hưng - Học DATA là một quá trình và mình vượt qua nó như
+                    thế
+                    nào</div>
+                  <div class="description">Với sự tìm hiểu từ cấp 3, em cảm thấy ngành phần mềm về công nghệ rất thú vị
+                    về
+                    những logic Toán học và các ngôn ngữ lập trình
+                    . Sau đó em có đăng kí thi đại học vào cách ngành công nghệ thông tin trong các trường đại học trên
+                    Hà
+                    Nội, tuy nhiên em lại không
+                    đủ điểm tiêu chí để được vào ngành công nghệ thông tin...
+                  </div>
+                </div>
+                <div class="see-more see-more--up">Xem thêm</div>
+
+              </div>
+
+              <div class="col-0 mt-4 row position-relative">
+                <div class="col-5">
+                  <div class="article__image"></div>
+                </div>
+                <div class="col-7">
+                  <div class="title--small">Bạn Nguyễn Quang Hưng - Học DATA là một quá trình và mình vượt qua nó như
+                    thế
+                    nào</div>
+                  <div class="description">Với sự tìm hiểu từ cấp 3, em cảm thấy ngành phần mềm về công nghệ rất thú vị
+                    về
+                    những logic Toán học và các ngôn ngữ lập trình
+                    . Sau đó em có đăng kí thi đại học vào cách ngành công nghệ thông tin trong các trường đại học trên
+                    Hà
+                    Nội, tuy nhiên em lại không
+                    đủ điểm tiêu chí để được vào ngành công nghệ thông tin...
+                  </div>
+                </div>
+                <div class="see-more see-more--up">Xem thêm</div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-4 py-5 lib-img__wrap">
+        <div class="container">
+          <div class="title lib-img">Thư viện ảnh
+            <div class="line"></div>
+          </div>
+          <div class="mt-4 row">
+            <div class="mt-4 col-12 col-xl-8 col-0 ">
+              <div class="lib-img__rectangle"></div>
+            </div>
+            <div class="mt-4 col-6 col-xl-4">
+              <div class="lib-img__square"></div>
+            </div>
+            <div class="mt-4 col-6 col-xl-4">
+              <div class="lib-img__square"></div>
+            </div>
+            <div class="mt-4 col-12 col-xl-8">
+              <div class="lib-img__rectangle"></div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-4 py-5 container">
+        <div class="center title position-relative">Chương trình đào tạo của MCI
+          <div class="line"></div>
+        </div>
+        <div class="mt-4 row">
+          <div class="mt-4 col-6 col-xl-3">
+            <div class="mt-4 education__item position-relative">
+              <div class="education__circle"></div>
+              <div class="mt-4 title education__item-title">Phân tích dữ liệu</div>
+              <div class="description">Với sự tìm hiểu từ cấp 3, em cảm thấy ngành phần mềm về công nghệ rất thú vị về
+                những logic Toán học và các ngôn ngữ lập trình
+                . Sau đó em có đăng kí thi đại học vào cách ngành công nghệ thông tin trong các trường đại học trên Hà
+                Nội, tuy nhiên em lại không
+                đủ điểm tiêu chí để được vào ngành công nghệ thông tin...</div>
+              <div class="see-more">Xem thêm</div>
+            </div>
+
+          </div>
+          <div class="mt-4 col-6 col-xl-3">
+            <div class="mt-4 education__item position-relative">
+              <div class="education__circle"></div>
+              <div class="mt-4 title education__item-title">Phân tích dữ liệu</div>
+              <div class="description">Với sự tìm hiểu từ cấp 3, em cảm thấy ngành phần mềm về công nghệ rất thú vị về
+                những logic Toán học và các ngôn ngữ lập trình
+                . Sau đó em có đăng kí thi đại học vào cách ngành công nghệ thông tin trong các trường đại học trên Hà
+                Nội, tuy nhiên em lại không
+                đủ điểm tiêu chí để được vào ngành công nghệ thông tin...</div>
+              <div class="see-more">Xem thêm</div>
+            </div>
+
+          </div>
+          <div class="mt-4 col-6 col-xl-3">
+            <div class="mt-4 education__item position-relative">
+              <div class="education__circle"></div>
+              <div class="mt-4 title education__item-title">Phân tích dữ liệu</div>
+              <div class="description">Với sự tìm hiểu từ cấp 3, em cảm thấy ngành phần mềm về công nghệ rất thú vị về
+                những logic Toán học và các ngôn ngữ lập trình
+                . Sau đó em có đăng kí thi đại học vào cách ngành công nghệ thông tin trong các trường đại học trên Hà
+                Nội, tuy nhiên em lại không
+                đủ điểm tiêu chí để được vào ngành công nghệ thông tin...</div>
+              <div class="see-more">Xem thêm</div>
+            </div>
+
+          </div>
+          <div class="mt-4 col-6 col-xl-3">
+            <div class="mt-4 education__item position-relative">
+              <div class="education__circle"></div>
+              <div class="mt-4 title education__item-title">Phân tích dữ liệu</div>
+              <div class="description">Với sự tìm hiểu từ cấp 3, em cảm thấy ngành phần mềm về công nghệ rất thú vị về
+                những logic Toán học và các ngôn ngữ lập trình
+                . Sau đó em có đăng kí thi đại học vào cách ngành công nghệ thông tin trong các trường đại học trên Hà
+                Nội, tuy nhiên em lại không
+                đủ điểm tiêu chí để được vào ngành công nghệ thông tin...</div>
+              <div class="see-more">Xem thêm</div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <!-- <div class="related-posts col-order-1">
+      <div class="mt-4 py-5 container">
+        
+      </div>
+    </div> -->
+
+    <div class="py-4 footer">
+      <div class="container">
+        <div class="row">
+          <div class="mt-4 col-6 col-xl-5 col-order-4">
+            <img src="assets/images/Facebook.png" alt="" class="footer__img">
+          </div>
+          <div class="mt-4 col-6 col-xl-2 col-order-1">
+            <div class="title footer__title">
+              Hà nội
+            </div>
+            <ul class="footer__content">
+              <li class="mt-4 footer__content-item">
+                <div class="content-item--main">165 Thái Hà</div>
+                <div class="description description-28 description--white">
+                  <span class="content-item--main">Hotline</span>: 024 7106 8368
+                </div>
+                <div class="description description-28 description--white">
+                  <span class="content-item--main">Địa chỉ</span>: Tâng 6, Số 5, Ngách 23,
+                  Ngõ 165 Thái Hà, Phường Láng Hạ,
+                  Quận Đống Đa, Thành phố Hà Nội,
+                  Việt Nam
+                </div>
+              </li>
+              <li class="mt-4 footer__content-item">
+                <div class="content-item--main">30 Trung Liệt</div>
+                <div class="description description-28 description--white">
+                  <span class="content-item--main">Hotline</span>: 024 7106 8368
+                </div>
+                <div class="description description-28 description--white">
+                  <span class="content-item--main">Địa chỉ</span>: Số 30, Trung Liệt, Phường Trung Liệt, Quận Đống Đa,
+                  Thành phố Hà Nội, Việt Nam
+                </div>
+              </li>
+            </ul>
+
+          </div>
+          <div class="mt-4 col-6 col-xl-2 col-order-2">
+            <div class="title footer__title">
+              Hồ chí minh
+            </div>
+            <ul class="footer__content">
+              <li class="mt-4 footer__content-item">
+                <div class="content-item--main">HCM - 13 Cao Thăng</div>
+                <div class="description description-28 description--white">
+                  <span class="content-item--main">Hotline</span>: 024 7106 8368
+                </div>
+                <div class="description description-28 description--white">
+                  <span class="content-item--main">Địa chỉ</span>: 13 Cao Thăng, Phường 2,
+                  Quận 3, Thành Phô Hồ Chí Minh
+                </div>
+              </li>
+              <li class="mt-4 footer__content-item">
+                <div class="content-item--main">HCM - 224 Điện Biên Phủ</div>
+                <div class="description description-28 description--white">
+                  <span class="content-item--main">Hotline</span>: 024 7106 8368
+                </div>
+                <div class="description description-28 description--white">
+                  <span class="content-item--main">Địa chỉ</span>: Tầng 4 & Tầng 6, 224 Điện Biên Phủ, Phường Võ Thị
+                  Sáu, Quận
+                  3, Thành phố Hồ Chí Minh, Việt Nam
+                </div>
+              </li>
+              <li class="mt-4 footer__content-item">
+                <div class="content-item--main">HCM - 677/6 Điện Biên Phủ</div>
+                <div class="description description-28 description--white">
+                  <span class="content-item--main">Hotline</span>: 024 7106 8368
+                </div>
+                <div class="description description-28 description--white">
+                  <span class="content-item--main">Địa chỉ</span>: Tầng 4, Yoko Building 677/6, Điện Biên Phủ, Phường
+                  25,
+                  Quận Bình Thạnh, Thành phố Hô Chí Minh, Việt Nam
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="mt-4 col-6 col-xl-3 col-order-3">
+            <div class="title footer__title">
+              Hotline
+            </div>
+            <div class="mt-4">
+              <div class="content-item--main">Khiếu nại CEO: 0982 521 378</div>
+              <div class="content-item--main">Khiếu nại DCEO: 0916 442 368</div>
+              <div class="content-item--main">Hợp tác truyền thông: 0934 146 016</div>
+              <div class="content-item--main">Hợp tác kinh doanh: 0961 123 988</div>
+              <div class="content-item--main">Khiếu nại dịch vụ CSKH: 024 7106 8368</div>
+              <div class="content-item--main">Tư vấn khóa học 1</div>
+              <div class="content-item--main">Ms. Khánh Ly 0352 433 233</div>
+              <div class="content-item--main">Tư vân khóa học 2</div>
+              <div class="content-item--main">Ms. Ngọc Linh 0344 463 698</div>
+              <div class="content-item--main">CSKH: cskh@mcivietnam.com</div>
+              <div class="content-item--main">Chính sách bảo mật</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <script src="./js/pdp.js"></script>
+</body>
+
+</html>
